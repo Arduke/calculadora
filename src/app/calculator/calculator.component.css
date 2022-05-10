@@ -1,0 +1,88 @@
+.calculator {
+    width: 580px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display {
+    width: 300px;
+    display: flex;
+    border: 1px solid white;
+    padding: 8px;
+    min-height: 60px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    flex-direction: row-reverse;   
+    align-items: baseline;
+}
+
+.icon {
+    font-size: 20px; 
+    color: white;
+    width: 30px;
+    height: 30px;
+}
+
+.icon:hover {
+    color: rgb(0, 246, 164);
+}
+
+.value {
+    margin: 0px 10px 0px 10px;
+    color: white;
+    width: 170px;
+    min-height: 35px;
+    text-align: end;
+    overflow-wrap: break-word;
+}
+
+.buttons button {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+
+.buttons button:hover {
+    border-color: rgb(0, 251, 168);
+    color: rgb(0, 246, 164);
+}
+
+.user-container {   
+    display: flex;
+    width: 80%;
+    margin: 10px;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.user-container  h1{
+    color: white;
+    text-align: center;
+}
+
+.user-container input {
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.user-container button {
+    color: white;
+    display: flex;
+    min-width: 105px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    background-color: #2b2c2d;
+}

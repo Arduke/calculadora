@@ -1,0 +1,28 @@
+<div>
+    
+    <div class="calculator"> 
+        <div class="user-container">
+            <h1>Digite seu nome para registrar seus calculos</h1>
+            <input type="text" [(ngModel)]="Username"/>
+        </div>
+        <div class="display">
+            <i class="bi bi-search icon" (click)="onSearch()"></i>
+            <h1 class="value">{{Display}}</h1>
+            <i class="bi bi-backspace-reverse icon" (click)="onClear()"></i>
+        </div>
+        <div class="buttons">
+            <div>
+                <button *ngFor="let button of Buttons1" (click)="onClick(button.value)">{{button.value}}</button>
+            </div>  
+            <div>
+                <button *ngFor="let button of Buttons2" (click)="onClick(button.value)">{{button.value}}</button>
+            </div> 
+            <div>
+                <button *ngFor="let button of Buttons3" (click)="onClick(button.value)">{{button.value}}</button>
+            </div> 
+            <div>
+                <button *ngFor="let button of Buttons4" (click)="onClick(button.value)">{{button.value}}</button>
+            </div> 
+        </div>
+    </div>
+</div>

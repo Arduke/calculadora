@@ -1,0 +1,31 @@
+.home {
+    width: 500px;
+    display: flex;
+    border-radius: 20px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(0, 251, 168);
+}
+
+
+
+
+.list-log {
+    width: 98%;
+    height: 60vh;
+    overflow-y: scroll;
+    padding: 20px;
+    border: 1px solid rgb(0, 251, 168);
+    background-color: white;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.log {
+    background-color: #2b2c2d;
+    border: 1px solid rgb(0, 251, 168);
+    padding: 10px;
+    color: white;
+    margin: 5px;
+    border-radius: 10px;
+}
